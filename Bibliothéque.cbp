@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bibliothéque" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bibliothéque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bibliothéque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/gtk-2.0" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/cairo" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/gdk" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/glib-2.0" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib/glib-2.0/include" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/pango-1.0" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib/gtk-2.0/include" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include/atk-1.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-2.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="about.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="about.h" />
+		<Unit filename="ajouter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ajouter.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recherche.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recherche.h" />
+		<Unit filename="supprimer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="supprimer.h" />
+		<Unit filename="trie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="trie.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
